@@ -1,0 +1,16 @@
+{
+  "resourceType" : "Patient",
+  "id" : "SmartcarePlus",
+  "meta" : {
+    "profile" : ["http://opehhie.org/fhir/table1ig/StructureDefinition/smart-care-plus-patient-ig"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Moses John Giji </b> (no stated gender), DoB Unknown</p><hr/></div>"
+  },
+  "name" : [{
+    "family" : "Giji",
+    "given" : ["Moses",
+    "John"]
+  }]
+}

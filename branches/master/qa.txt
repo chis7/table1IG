@@ -1,0 +1,25 @@
+table1ig : Validation Results
+=========================================
+
+err = 0, warn = 2, info = 4
+IG Publisher Version: 1.5.16
+Generated Sat Feb 17 09:29:31 UTC 2024. FHIR version 5.0.0 for openhie.fhir.table1ig#1.0.0 (canonical = http://opehhie.org/fhir/table1ig)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-smartcare-plus : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.table1ig : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/Patient-SmartcarePlus : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-smart-care-plus-patient-ig : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-smart-are-plus : 0 / 1 / 2
+</table>
+== n/a ==
+== fsh-generated/resources/CodeSystem-cs-smartcare-plus.json ==
+INFORMATION: CodeSystem/cs-smartcare-plus: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ImplementationGuide-openhie.fhir.table1ig.json ==
+INFORMATION: ImplementationGuide/openhie.fhir.table1ig: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ImplementationGuide/openhie.fhir.table1ig: ImplementationGuide: Constraint failed: cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+== fsh-generated/resources/Patient-SmartcarePlus.json ==
+== fsh-generated/resources/StructureDefinition-smart-care-plus-patient-ig.json ==
+INFORMATION: StructureDefinition/smart-care-plus-patient-ig: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-smart-are-plus.json ==
+INFORMATION: ValueSet/vs-smart-are-plus: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ValueSet/vs-smart-are-plus: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

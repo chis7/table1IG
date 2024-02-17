@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="e7206a07-4bd9-4dd0-880a-5fbe37ece1b4"/>
+  <meta>
+    <lastUpdated value="2024-02-17T09:29:15.989+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://opehhie.org/fhir/table1ig/ValueSet/vs-smart-are-plus"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-cs-smartcare-plus.html">codesystem CS SmartCare Plus v1.0.0 (CodeSystem)</a>
+                </li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 7 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-472986005"> </a>  
+                  <a href="http://snomed.info/id/472986005">472986005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sexually active with men (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-159799000"> </a>  
+                  <a href="http://snomed.info/id/159799000">159799000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Female prostitute</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-159800001"> </a>  
+                  <a href="http://snomed.info/id/159800001">159800001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Male prostitute</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-228388006"> </a>  
+                  <a href="http://snomed.info/id/228388006">228388006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Injects drugs intravenously</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-417284009"> </a>  
+                  <a href="http://snomed.info/id/417284009">417284009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Current drug user (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-407375002"> </a>  
+                  <a href="http://snomed.info/id/407375002">407375002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Surgically transgendered transsexual (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---opehhie.org-fhir-table1ig-CodeSystem-cs-smartcare-plus-General-Population"> </a>  
+                  <a href="CodeSystem-cs-smartcare-plus.html#cs-smartcare-plus-General-Population">General-Population</a>
+                </td>
+                <td>http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus</td>
+                <td>General Populaton</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://opehhie.org/fhir/table1ig/ValueSet/vs-smart-are-plus"/>
+        <version value="1.0.0"/>
+        <name value="VSSmatCarePlus"/>
+        <title value="VS SmartCare Plus"/>
+        <status value="active"/>
+        <date value="2024-02-17T09:29:15+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:2a08994d-3b0c-4cfe-b6e3-4265608aef7b"/>
+          <timestamp value="2024-02-17T09:29:25+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="472986005"/>
+            <display value="Sexually active with men (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="159799000"/>
+            <display value="Female prostitute"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="159800001"/>
+            <display value="Male prostitute"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="228388006"/>
+            <display value="Injects drugs intravenously"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="417284009"/>
+            <display value="Current drug user (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="407375002"/>
+            <display value="Surgically transgendered transsexual (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus"/>
+            <code value="General-Population"/>
+            <display value="General Populaton"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

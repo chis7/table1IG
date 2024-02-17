@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-openhie.fhir.table1ig.json	3044	-	0	0	0	0	0	0	3	69	0	0	0	0	0	0	0	1	0	0	63	49	0	0	0	1	0	1
+fsh-generated/resources/CodeSystem-cs-smartcare-plus.json	454	16	1	0	0	0	0	0	0	14	0	0	1	0	0	0	0	0	0	0	12	1515	0	0	0	1	0	0
+fsh-generated/resources/Patient-SmartcarePlus.json	295	15	0	0	0	0	0	0	0	85	0	0	0	0	0	0	0	0	0	0	5	6	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-smart-care-plus-patient-ig.json	2959	24	0	0	0	0	0	230	0	217	0	0	0	0	0	0	0	2	0	0	482	1896	0	0	0	10	0	1
+fsh-generated/resources/ValueSet-vs-smart-are-plus.json	1124	18	0	0	0	0	0	0	0	230	0	0	0	0	0	0	0	0	0	0	16	2047	0	0	0	0	0	0

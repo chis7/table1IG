@@ -1,0 +1,12 @@
+table1ig
+=========================================
+
+/github/workspace/fsh-generated/resources/CodeSystem-cs-smartcare-plus.json: line 1, col 1195, Info - Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.table1ig.json: line 1, col 995, Info - Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.table1ig.json: line 1, col 8101, Warning - Constraint failed: cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ImplementationGuide) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-smart-care-plus-patient-ig.json: line 1, col 24623, Info - Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ValueSet-vs-smart-are-plus.json: line 1, col 1873, Info - Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ValueSet-vs-smart-are-plus.json: line 1, col 2356, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+
+err = 0, warn = 2, info = 4
+IG Publisher Version: 1.5.16

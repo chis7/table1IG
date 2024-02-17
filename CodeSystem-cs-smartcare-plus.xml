@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-smartcare-plus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">General-Population<a name="cs-smartcare-plus-General-Population"> </a></td><td>General Populaton</td></tr></table></div>
+  </text>
+  <url value="http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus"/>
+  <version value="1.0.0"/>
+  <name value="CSSmartCarePlus"/>
+  <title value="CS SmartCare Plus"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-02-17T09:29:15+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value=" CS Smartcare Plus"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="General-Population"/>
+    <display value="General Populaton"/>
+  </concept>
+</CodeSystem>

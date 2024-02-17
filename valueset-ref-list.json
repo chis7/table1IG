@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://opehhie.org/fhir/table1ig/ValueSet/vs-smart-are-plus",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "VSSmatCarePlus",
+      "title" : "VS SmartCare Plus",
+      "description" : "VS HIV key population",
+      "systems" : [
+        "http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus",
+        "http://snomed.info/sct"
+      ]
+    }
+  ]
+}

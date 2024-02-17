@@ -1,0 +1,15 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "CSSmartCarePlus",
+      "title" : "CS SmartCare Plus",
+      "description" : " CS Smartcare Plus",
+      "uses" : {
+      },
+      "ValueSet-vs-smart-are-plus.html" : "VS SmartCare Plus"
+    }
+  ]
+}

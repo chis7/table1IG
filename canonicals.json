@@ -1,0 +1,30 @@
+[
+  {
+    "id" : "cs-smartcare-plus",
+    "type" : "CodeSystem",
+    "url" : "http://opehhie.org/fhir/table1ig/CodeSystem/cs-smartcare-plus",
+    "version" : "1.0.0",
+    "name" : "CSSmartCarePlus"
+  },
+  {
+    "id" : "openhie.fhir.table1ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://opehhie.org/fhir/table1ig/ImplementationGuide/openhie.fhir.table1ig",
+    "version" : "1.0.0",
+    "name" : "table1ig"
+  },
+  {
+    "id" : "smart-care-plus-patient-ig",
+    "type" : "StructureDefinition",
+    "url" : "http://opehhie.org/fhir/table1ig/StructureDefinition/smart-care-plus-patient-ig",
+    "version" : "1.0.0",
+    "name" : "SmartCarePlusPatientIG"
+  },
+  {
+    "id" : "vs-smart-are-plus",
+    "type" : "ValueSet",
+    "url" : "http://opehhie.org/fhir/table1ig/ValueSet/vs-smart-are-plus",
+    "version" : "1.0.0",
+    "name" : "VSSmatCarePlus"
+  }
+]
